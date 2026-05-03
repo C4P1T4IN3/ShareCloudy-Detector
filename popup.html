@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 380px;
+            min-height: 200px;
+            background: #0d0d1a;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #e50914;
+            padding: 15px 20px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .content { padding: 15px; }
+        .url-card {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+        .url-text {
+            color: #00d4ff;
+            font-size: 11px;
+            word-break: break-all;
+            margin-bottom: 8px;
+        }
+        .btn-row { display: flex; gap: 8px; }
+        button, .btn-open {
+            padding: 6px 14px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 11px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn-copy { background: #27ae60; color: white; }
+        .btn-open { background: #3498db; color: white; }
+        .empty {
+            text-align: center;
+            color: #666;
+            padding: 40px 20px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">🎬 ShareCloudy Detector</div>
+    <div class="content" id="content">
+        <div class="empty">
+            <div style="font-size:40px;margin-bottom:10px">🔍</div>
+            Chargement...
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
