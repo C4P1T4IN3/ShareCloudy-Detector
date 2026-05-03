@@ -34,7 +34,7 @@ Lorsqu’un lecteur compatible est identifié, une **popup discrète** apparaît
 
 1. Clone le projet :
 ```bash
-git clone https://github.com/ton-username/sharecloudy-detector.git
+git clone https://github.com/C4P1T4IN3/ShareCloudy-Detector.git
 ```
 
 2. Ouvre ton navigateur et va sur :
