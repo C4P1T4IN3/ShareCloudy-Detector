@@ -1,4 +1,4 @@
-🎬 ShareCloudy Detector
+#🎬 ShareCloudy Detector
 ShareCloudy Detector est une extension de navigateur permettant d’identifier si une vidéo en cours de lecture est hébergée sur ShareCloudy.
 Lorsqu’un lecteur compatible est détecté, une notification discrète apparaît en bas à droite de l’écran. Cette popup permet :
 
